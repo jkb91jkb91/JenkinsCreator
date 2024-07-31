@@ -54,9 +54,7 @@ Prerequisuites: Terraform cloud token stored in ~/.terraform.d/credentials.tfrc.
   JOB2 = B_ansible_stack_create.json  
   JOB3 = C_ansible_stack_delete.json  
   JOB4 = D_terraform_stack_delete.json  
-  IMPORTANT NOTE: 
-  - Jenkins JCASC creates GLOBAL VARIABLE for TERRAFORM WITH FAKE VALUES: Please paste CORRECT TOKEN THAT IS USED TO CONNECT WITH TERRAFORM REMOTE CLOUD  
-
+  IMPORTANT NOTE: Jenkins JCASC creates GLOBAL VARIABLE for TERRAFORM WITH FAKE VALUES: Please paste CORRECT TOKEN THAT IS USED TO CONNECT WITH TERRAFORM REMOTE CLOUD  
 - RESULT OF SCRIPT prepare_for_ansible.sh         = We have copied ssh keys from terraform output on our local machine to enable connection tgrough SSH to EC2   
 
 
