@@ -50,10 +50,10 @@ Prerequisuites: Terraform cloud token stored in ~/.terraform.d/credentials.tfrc.
 
 ### FINAL RESULT
 - RESULT OF SCRIPT setup_terraform_and_ansible.sh = has EC2 with FULL PROVISIONED JENKINS INSTANCE and 4 JOBS IN IT
-  JOB1 = A_terraform_stack_create.json 
-  JOB2 = B_ansible_stack_create.json 
-  JOB3 = C_ansible_stack_delete.json
-  JOB4 = D_terraform_stack_delete.json
+  JOB1 = A_terraform_stack_create.json  
+  JOB2 = B_ansible_stack_create.json  
+  JOB3 = C_ansible_stack_delete.json  
+  JOB4 = D_terraform_stack_delete.json  
   IMPORTANT NOTE: 
   - Jenkins JCASC creates GLOBAL VARIABLE for TERRAFORM WITH FAKE VALUES: Please paste CORRECT TOKEN THAT IS USED TO CONNECT WITH TERRAFORM REMOTE CLOUD  
 
