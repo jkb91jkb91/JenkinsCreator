@@ -19,8 +19,8 @@ Technologies used to create this site:
 ## Detailed description
 
 FIRST STEP
-trigger script: ./Terraform_Jenkins_configuration/setup_terraform_and_ansible.sh
-Prerequisuites: Terraform cloud token stored in ~/.terraform.d/credentials.tfrc.json
+trigger script: **<p style="color: blue;">./Terraform_Jenkins_configuration/setup_terraform_and_ansible.sh</p>**
+Prerequisuites: Terraform cloud token stored in **<p style="color: blue;">~/.terraform.d/credentials.tfrc.json</p>**
 
 SECOND STEP
 trigger script: ./Terraform_Jenkins_configuration/prepare_for_ansible.sh
