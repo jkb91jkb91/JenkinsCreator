@@ -44,8 +44,13 @@ Prerequisuites: Terraform cloud token stored in ~/.terraform.d/credentials.tfrc.
 
   - starting and enabling JENKINS service
 
-### SECOND STEP DETAILED  >>> setup_terraform_and_ansible.sh >>> description of the process
+### SECOND STEP DETAILED  >>> prepare_for_ansible.sh >>> description of the process
 - saving on local machine keys needed to ssh into EC2, all data are stored in terraform output
+
+### FINAL RESULT
+- RESULT OF SCRIPT setup_terraform_and_ansible.sh = has EC2 with FULL PROVISIONED JENKINS INSTANCE and 4 JOBS IN IT  
+- RESULT OF SCRIPT prepare_for_ansible.sh         = We have copied ssh keys from terraform output on our local machine to enable connection tgrough SSH to EC2   
+
 
 <!-- AUTHOR -->
 ## Author
