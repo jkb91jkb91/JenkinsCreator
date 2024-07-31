@@ -49,7 +49,7 @@ Prerequisuites: Terraform cloud token stored in ~/.terraform.d/credentials.tfrc.
 - saving on local machine keys needed to ssh into EC2, all data are stored in terraform output
 
 ### FINAL RESULT
-- RESULT OF SCRIPT setup_terraform_and_ansible.sh = has EC2 with FULL PROVISIONED JENKINS INSTANCE and 4 JOBS IN IT
+- RESULT OF SCRIPT setup_terraform_and_ansible.sh = has EC2 with FULL PROVISIONED JENKINS INSTANCE and 4 jobs in it:  
   JOB1 = A_terraform_stack_create.json  
   JOB2 = B_ansible_stack_create.json  
   JOB3 = C_ansible_stack_delete.json  
