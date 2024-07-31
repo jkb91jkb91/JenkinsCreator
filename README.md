@@ -36,12 +36,12 @@ Prerequisuites: Terraform cloud token stored in ~/.terraform.d/credentials.tfrc.
   - automatically adding four JENKINS JOBS to the instance, only JOB A and C should be triggered manually
     
     JOB A WILL AUTOMATICALLY TRIGGER JOB B AFTER A COMPLETION
-    1 A_terraform_stack_create.json 
-    2 B_ansible_stack_create.json
+    1 A_terraform_stack_create.json  
+    2 B_ansible_stack_create.json  
     
     JOB C WILL AUTOMATICALLY TRIGGER JOB D AFTER C COMPLETION
-    3 C_ansible_stack_delete.json
-    4 D_terraform_stack_delete.json
+    3 C_ansible_stack_delete.json  
+    4 D_terraform_stack_delete.json  
 
   - starting and enabling JENKINS service
 
@@ -49,7 +49,14 @@ Prerequisuites: Terraform cloud token stored in ~/.terraform.d/credentials.tfrc.
 - saving on local machine keys needed to ssh into EC2, all data are stored in terraform output
 
 ### FINAL RESULT
-- RESULT OF SCRIPT setup_terraform_and_ansible.sh = has EC2 with FULL PROVISIONED JENKINS INSTANCE and 4 JOBS IN IT  
+- RESULT OF SCRIPT setup_terraform_and_ansible.sh = has EC2 with FULL PROVISIONED JENKINS INSTANCE and 4 JOBS IN IT
+  JOB1 = A_terraform_stack_create.json 
+  JOB2 = B_ansible_stack_create.json 
+  JOB3 = C_ansible_stack_delete.json
+  JOB4 = D_terraform_stack_delete.json
+  IMPORTANT NOTE: 
+  - Jenkins JCASC creates GLOBAL VARIABLE for TERRAFORM WITH FAKE VALUES: Please paste CORRECT TOKEN THAT IS USED TO CONNECT WITH TERRAFORM REMOTE CLOUD  
+
 - RESULT OF SCRIPT prepare_for_ansible.sh         = We have copied ssh keys from terraform output on our local machine to enable connection tgrough SSH to EC2   
 
 
