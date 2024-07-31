@@ -1,4 +1,5 @@
-# Jenkins VM Setup - Terraform IaC for Jenkins Configuration
+# Jenkins JCASC VM Setup on AWS EC2 
+# Used Iac Tools: Ansible & Terraform 
 <a name="readme-top"></a>
 <!-- ABOUT THE PROJECT -->
 ## About The Project
