@@ -18,14 +18,15 @@ Technologies used to create this site:
 <!-- DETAILED DESCRIPTION -->
 ## Detailed description
 
-FIRST STEP
+FIRST STEP  
 trigger script: **./Terraform_Jenkins_configuration/setup_terraform_and_ansible.sh**    
 Prerequisuites: Terraform cloud token stored in ~/.terraform.d/credentials.tfrc.json  
 
-SECOND STEP
+SECOND STEP  
 trigger script: **./Terraform_Jenkins_configuration/prepare_for_ansible.sh**  
 Prerequisuites: Terraform cloud token stored in ~/.terraform.d/credentials.tfrc.json
 
+# FIRST STEP DETAILED  
 ## setup_terraform_and_ansible.sh
 - creation of EC2 VM ona AWS with the help of terraform and ansible and usage of remote cloud backend
 - saving of IP address to ANSIBLE host file for later usage by ANSIBLE provisioning
@@ -44,6 +45,7 @@ Prerequisuites: Terraform cloud token stored in ~/.terraform.d/credentials.tfrc.
 
   - starting and enabling JENKINS service
 
+# SECOND STEP DETAILED  
 ## setup_terraform_and_ansible.sh
 - saving on local machine keys needed to ssh into EC2, all data are stored in terraform output
 
