@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This repository is used as a part of bigger project is a first step and prerequisuite for step 2 and 3:  
+This repository is used as a part of bigger project and it is a first step and prerequisuite for step 2 and 3:  
 
 Next steps:  
 2) https://github.com/jkb91jkb91/Jenkins_KubeStarter  
