@@ -5,7 +5,7 @@
 ## About The Project
 This repository is used as a part of bigger project is a first step and prerequisuite for step 2 and 3:  
 
-1) This repo
+Next steps: 
 2) https://github.com/jkb91jkb91/Jenkins_KubeStarter
 3) https://github.com/jkb91jkb91/KubeServices
 
