@@ -5,9 +5,9 @@
 ## About The Project
 This repository is used as a part of bigger project is a first step and prerequisuite for step 2 and 3:  
 
-Next steps: 
-2) https://github.com/jkb91jkb91/Jenkins_KubeStarter
-3) https://github.com/jkb91jkb91/KubeServices
+Next steps:  
+2) https://github.com/jkb91jkb91/Jenkins_KubeStarter  
+3) https://github.com/jkb91jkb91/KubeServices  
 
 This repository contains the files needed to start Terraform and Ansible in Terraform cloud and AWS that allow you to configure Jenkins with jobs.
 
