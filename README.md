@@ -5,10 +5,12 @@
 ## About The Project
 This repository is used as a part of bigger project and it is a first step and prerequisuite for step 2 and 3:  
 
-STEPS:  
-**Current >>> 1) https://github.com/jkb91jkb91/JenkinsCreator**  
-Next step >>> 2) https://github.com/jkb91jkb91/Jenkins_KubeStarter  # Creates kubeadm kubernetes cluster on EC2 instances  
-Next step >>> 3) https://github.com/jkb91jkb91/KubeServices   # Deploying helm charts  
+| Step         | Link                                                                                         | Description                                      |
+|--------------|----------------------------------------------------------------------------------------------|--------------------------------------------------|
+| Current step | [JenkinsCreator](https://github.com/jkb91jkb91/JenkinsCreator)                               |                                                  |
+| Next step    | [Jenkins_KubeStarter](https://github.com/jkb91jkb91/Jenkins_KubeStarter)                     | Creates kubeadm kubernetes cluster on EC2 instances |
+| Next step    | [KubeServices](https://github.com/jkb91jkb91/KubeServices)                                   | Deploying helm charts                            |
+
 
 This repository contains the files needed to start Terraform and Ansible in Terraform cloud and AWS that allow you to configure Jenkins with jobs.
 
